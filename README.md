@@ -15,8 +15,7 @@ A small Python project that connects a **NAO v5 robot** to a local **Ollama LLM*
 ## How It Works
 
 ```text
-User speaks → NAO speech recognition → voice_chat.py
-            → Ollama local LLM → response → NAO speaks
+User speaks → NAO speech recognition → voice_chat.py → Ollama local LLM → response → NAO speaks
 ```
 
 The main file is:
