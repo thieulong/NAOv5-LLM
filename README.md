@@ -34,7 +34,6 @@ voice_chat.py
 The tested setup is:
 
 ```text
-<<<<<<< HEAD
 Host laptop
 │
 ├── Ollama
@@ -50,7 +49,6 @@ Host laptop
          NAO v5
 =======
 User speaks → NAO speech recognition → voice_chat.py → Ollama local LLM → response → NAO speaks
->>>>>>> 8ed56d33f3c09c134387a4218b67928ccb5266d1
 ```
 
 During a conversation:
