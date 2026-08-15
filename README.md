@@ -47,7 +47,7 @@ Host laptop
             │ NAOqi / TCP port 9559
             ↓
          NAO v5
-=======
+
 User speaks → NAO speech recognition → voice_chat.py → Ollama local LLM → response → NAO speaks
 ```
 
@@ -112,25 +112,11 @@ You will need:
 
 The project uses the NAOqi Python SDK compatible with **NAOqi 2.1.4.13**.
 
-Official NAOqi Python installation guide:
+Official NAOqi installation guide:
 
-https://doc.aldebaran.com/2-1/dev/python/install_guide.html
+[https://doc.aldebaran.com/2-1/dev/python/install_guide.html](https://wiki.ros.org/nao/Tutorials/Installation)
 
-Download the Linux/Python 2.7 SDK for NAOqi 2.1.4.13.
-
-The SDK archive may look similar to:
-
-```text
-naoqi-sdk-2.1.4.13-linux64.tar.gz
-```
-
-After extraction, you will have a directory similar to:
-
-```text
-naoqi-sdk-2.1.4.13-linux64/
-```
-
-The SDK is intentionally **not included in this GitHub repository** because it is large.
+Please follow the guide in the link above to set up the codebase environment with Python 2.7 SDK and NAOqi SDK v2.1.4.13.
 
 ---
 
